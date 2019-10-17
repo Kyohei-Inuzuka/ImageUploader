@@ -39,7 +39,7 @@ class ImageUploader(object):
         """ ディレクトリ配下の画像ファイルのリストを取得する """
         file_list = []
         for (root, dirs, files) in os.walk(CONFIG['IMAGE_FILE_ROOT']):
-            for f_item in files: 
+            for f_item in files:
                 target = os.path.join(root, f_item).replace("\\", "/")
                 if os.path.isfile(target):
                     if imghdr.what(target) != None:
@@ -78,4 +78,3 @@ if __name__ == '__main__':
     for item in IMGFILELIST:
         IU.resize_image(item)
     IU.upload_to_s3()
-    

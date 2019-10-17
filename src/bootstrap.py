@@ -8,8 +8,8 @@ CONFIG = {
     'THUMBNAIL_PREFIX': '_thumb',
     'THUMBNAIL_WIDTH': 50,
 
-    'AWS_ACCESS_KEY_ID': 'Input AWS secret access key',
-    'AWS_SECRET_ACCESS_KEY': 'Input AWS secret access key',
-    'S3_REGION': 'ap-northeast-1',
-    'S3_BUCKETNAME': 'Input s3 bucket name.'
+    'AWS_ACCESS_KEY_ID': 'Input AWS secret access key.',
+    'AWS_SECRET_ACCESS_KEY': 'Input AWS secret access key.',
+    'S3_REGION': 'Input S3 region.',
+    'S3_BUCKETNAME': 'Input S3 bucket name.'
 }
